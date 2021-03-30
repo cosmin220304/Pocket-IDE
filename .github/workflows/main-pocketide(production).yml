@@ -24,7 +24,7 @@ jobs:
         dotnet-version: '5.0.x'
 
     - name: Build with dotnet
-      run: dotnet build --configuration Release
+      run: echo ${{env.DOTNET_ROOT}} && dotnet build --configuration Release
       working-directory: ${{env.DOTNET_ROOT}}
 
     - name: dotnet publish
