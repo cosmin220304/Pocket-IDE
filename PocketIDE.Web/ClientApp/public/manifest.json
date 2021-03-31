@@ -1,11 +1,23 @@
 {
-  "short_name": "PocketIDE.Web",
-  "name": "PocketIDE.Web",
+  "short_name": "PktIDE",
+  "name": "PocketIDE",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "src": "placeholder.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "placeholder.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ],
   "start_url": "./index.html",
