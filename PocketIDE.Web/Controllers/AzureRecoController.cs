@@ -26,16 +26,8 @@ namespace PocketIDE.Web.Controllers
         [HttpPost]
         public async Task<string> Index(AzureRecoViewModel azureRecoViewModel)
         {
-            try
-            {
-                var imageUrl = await _imageSaver.SaveAndGetLocation(azureRecoViewModel.Image);
-                return await _formRecognizer.GetTextAsync(imageUrl);
-            }
-            catch(Exception exception)
-            {
-                _logger.LogTrace(exception.Message);
-                return "";
-            }
+            var imageUrl = await _imageSaver.SaveAndGetLocation(azureRecoViewModel.Image);
+            return await _formRecognizer.GetTextAsync(imageUrl);
         }
     }
 }
