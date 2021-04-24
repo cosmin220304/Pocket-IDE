@@ -1,0 +1,12 @@
+C:\Github\Pocket-IDE\PocketIDE.Services\bin\Debug\net5.0\PocketIDE.Services.deps.json
+C:\Github\Pocket-IDE\PocketIDE.Services\bin\Debug\net5.0\PocketIDE.Services.dll
+C:\Github\Pocket-IDE\PocketIDE.Services\bin\Debug\net5.0\ref\PocketIDE.Services.dll
+C:\Github\Pocket-IDE\PocketIDE.Services\bin\Debug\net5.0\PocketIDE.Services.pdb
+C:\Github\Pocket-IDE\PocketIDE.Services\obj\Debug\net5.0\PocketIDE.Services.csprojAssemblyReference.cache
+C:\Github\Pocket-IDE\PocketIDE.Services\obj\Debug\net5.0\PocketIDE.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Github\Pocket-IDE\PocketIDE.Services\obj\Debug\net5.0\PocketIDE.Services.AssemblyInfoInputs.cache
+C:\Github\Pocket-IDE\PocketIDE.Services\obj\Debug\net5.0\PocketIDE.Services.AssemblyInfo.cs
+C:\Github\Pocket-IDE\PocketIDE.Services\obj\Debug\net5.0\PocketIDE.Services.csproj.CoreCompileInputs.cache
+C:\Github\Pocket-IDE\PocketIDE.Services\obj\Debug\net5.0\PocketIDE.Services.dll
+C:\Github\Pocket-IDE\PocketIDE.Services\obj\Debug\net5.0\ref\PocketIDE.Services.dll
+C:\Github\Pocket-IDE\PocketIDE.Services\obj\Debug\net5.0\PocketIDE.Services.pdb
