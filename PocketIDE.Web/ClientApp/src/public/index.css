@@ -1,14 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Roboto:wght@300&display=swap');
+
 body {
-  background-color: #E5E5E5;
+  font-family: 'Roboto', sans-serif;
 }
 
-a {
-  color: #0366d6;
+.roboto {
+  font-family: 'Nunito', sans-serif;
 }
 
-code {
-  color: #E01A76;
+.nunito {
+  font-family: 'Roboto', sans-serif;
 }
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+} 
 
 .btn-primary {
   color: #A62639;
@@ -61,10 +71,58 @@ html {
   background: #FFD972;
 }
 
-.red-col-txt {
+.red-col-1 {
+  color: #DB324D;
+}
+
+.red-col-1-bkg {
+  background: #DB324D;
+}
+
+.red-col-2 {
   color: #A62639;
 }
 
-.red-col-bkg {
-  background: #DB324D;
+.red-col-2-bkg {
+  background: #A62639;
+}
+
+.center-children {
+  display: grid;
+  place-items: center;
+}
+
+/* code modified from from https://stackoverflow.com/questions/2812770/add-centered-text-to-the-middle-of-a-hr-like-line*/
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.separator::before,
+.separator::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid black;
+}
+
+.separator:not(:empty)::before {
+  margin-right: 1.5em;
+}
+
+.separator:not(:empty)::after {
+  margin-left: 1.5em;
+}
+/* end of code */
+
+.absolute {
+  position: absolute;
+}
+
+.card {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.pointer {
+  cursor: pointer;
 }
