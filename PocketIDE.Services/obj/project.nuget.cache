@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "guXwtMKq7tKqeFgIP2QvLbWaROR/KPV/oxTTIfPCAHI/7aiQjZcAbEyOg/HZicJ6nFtNWqu41Z5GBVog7STxFA==",
+  "dgSpecHash": "MrZHmlas1GEuvi749bwXrlmpAqqliuiiXpuTIZk7ibSI0oCFvXGkonCExu4OKjDPdIqGwUA+El32RSImDLMuqA==",
   "success": true,
   "projectFilePath": "C:\\Github\\Pocket-IDE\\PocketIDE.Services\\PocketIDE.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cosmi\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\cosmi\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\cosmi\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\cosmi\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "C:\\Users\\cosmi\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],

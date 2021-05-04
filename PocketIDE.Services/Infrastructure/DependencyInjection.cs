@@ -9,8 +9,9 @@ namespace PocketIDE.Services.Infrastructure
     {
         public static void AddServices(IServiceCollection services, IConfiguration configuration)
         {
-            services.AddSingleton<IFormRecognizer, FormRecognizer>();
             FormRecognizer.OcpApimSubscriptionKey = configuration["Secrets:OcpApimSubscriptionKey"];
+            ImageSaver.ImgbbApiKey = configuration["Secrets:ImgbbApiKey"];
+            services.AddSingleton<IFormRecognizer, FormRecognizer>();
             services.AddSingleton<IImageSaver, ImageSaver>();
         }
     }
